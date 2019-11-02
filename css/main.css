@@ -1,0 +1,203 @@
+/***** BASE STYLES*****/
+
+body{
+font-family: 'Montserrat', sans-serif;
+color: #2b2b2b;
+}
+
+#projects {
+  height: 1750px;
+}
+
+#about {
+  height: 600px;
+}
+#contact {
+  height: 470px;
+}
+
+/***** GRID*****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 550px;
+  float: left;
+}
+
+/***** HEADER*****/
+
+header {
+  height:auto;
+  margin: 0 auto;
+}
+
+#hero-image {
+  background: url(../img/hero-image.png);
+  background-size: cover;
+  height: 580px;
+  clear: both;
+}
+
+header h1 {
+  padding-top: 5px;
+  padding-left: 25px;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: #0c0c0c;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-align: left;
+}
+
+nav {
+  float: right;
+  padding: 0;
+  word-spacing: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: Montserrat;
+    text-transform: capitalize;
+    text-decoration:none;
+    font-size:18px;
+    color: #0c0c0c;
+}
+header h2 {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 375;
+  color: #dfdfdf;
+  text-transform: uppercase;
+  padding-top: 158px;
+  padding-left: 50px;
+  margin: 0;
+}
+
+header h3 {
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 350;
+  color: #c2c2c2;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+/*****PROJECTS SECTION CSS CODE*****/
+
+#projects {
+  background-color: #ebebeb;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#projects .half-width {
+  padding: 50px 0 0 50px;
+  height: 344px;
+}
+
+#projects h1 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 92px;
+  text-transform: uppercase;
+  line-height: 90px;
+  margin: 0;
+}
+
+#projects h2 {
+  font-family: Montserrat;
+  font-size: 28px;
+  color: #191919;
+  margin: auto;
+}
+
+#projects h3 {
+  font-family: Montserrat;
+  font-size: 22px;
+  color: #29402c;
+  margin: auto;
+}
+
+
+#projects p {
+  padding-right: 150px;
+  line-height: 30px;
+}
+/*****ABOUT SECTION CSS CODE*****/
+
+#about {
+  background-color: #29402c;
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+#about .half-width {
+  padding-left: 50px;
+}
+
+#alittleaboutme {
+  margin-left: 130px;
+}
+
+#aboutmephoto {
+  margin-top: 18px;
+}
+
+#about p {
+  color: #ebebeb;
+  padding: 0 80px;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/*****CONTACT SECTION CSS CODE******/
+
+#contact {
+  background-color: #ebebeb;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#contact .half-width {
+  padding-left: 50px;
+}
+
+#contactimage {
+  margin: 70px 0 0 0;
+  border: 5px solid white;
+}
+
+#contact h1 {
+  font-family: Montserrat;
+  font-size: 34px;
+  color: #303030;
+  text-align: center;
+  line-height: 53px;
+  padding-right: 80px;
+  font-weight: lighter;
+  letter-spacing: 8px;
+}
+
+#email-header {
+  text-decoration: none;
+  color: #303030;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 0 0 90px;
+}
+
+#contact ul {
+    list-style: none;
+    word-spacing: 50px;
+    padding: 38px 0 0 105px;
+}
+#contact ul li {
+     display: inline-block;
+}
